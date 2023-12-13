@@ -1,0 +1,62 @@
+.btn {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    background-repeat: 100px;
+    line-height: 1;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+
+    &--theme--yellow {
+        background: #FEDB3F;
+        color: #000;
+
+        &:hover {
+            color: #000;
+            background: #FEDB3F;
+        }
+    }
+
+    &--theme--transperent {
+        background: transparent;
+        color: #000;
+        text-transform: none;
+
+        &hover {
+            background: #FEDB3F;
+            color: #000; 
+        }
+    }
+
+    &--theme--yellowed {
+        background: #FEDB3F;
+        color: #000;
+        margin-left: -122px;
+
+        &:hover {
+            color: #000;
+            background: #FEDB3F;
+        }
+    }
+
+    &--theme--transperent {
+        background: transparent;
+        color: #000;
+        text-transform: none;
+
+        &hover {
+            background: #FEDB3F;
+            color: #000; 
+        }
+    }
+}
+
+
+    
+
+
+
+

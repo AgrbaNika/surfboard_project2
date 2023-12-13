@@ -1,0 +1,40 @@
+.hero {
+    background-image: url("./img/pictures/borders.png"); background-color: #000;
+    height: 100vh;
+    min-height: 650px;
+    color: #fff;
+    width: 1650px;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 24px 0 45px;
+}
+
+.hero__title-setion {
+    margin-left: 108px;
+    font-weight: 700;
+}
+
+.hero__main-title {
+    font-size: 47px;
+    width: 382px;
+    height: 25px;
+    top: 358px;
+    left: 80px;
+    font-weight: bold;
+    margin-bottom: 171px;
+    text-transform: uppercase;
+}
+
+.hero__title-desc {
+    padding-bottom: 36px;
+    font-weight: 400;
+    font-size: 21px;
+    font-style: 21px;
+    margin-bottom: 28px;
+    padding-right: 10%;
+}

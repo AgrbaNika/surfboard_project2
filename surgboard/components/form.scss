@@ -1,0 +1,45 @@
+.form {
+    display: flex;
+    padding: 180px;
+}
+
+.form__col {
+    flex: 1;
+    margin-right: 97px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.form__block {
+    flex: 1;
+    margin-right: 69px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.form__input {
+    width: 100%;
+    padding: 18px 11px;
+}
+
+.form__input--textrea {
+    padding: 63px;
+}
+
+.form__controls {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__btns {
+    margin-top: 79px;
+}
